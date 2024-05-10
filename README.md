@@ -20,6 +20,7 @@ To execute the calibration process, use the main file:
 Supporting functions included are:
 - `Funct_Gauss.m`: Function to solve the nonlinear equation.
 - `LMFnlsq.m`: Function to solve the nonlinear equation.
+- A solution is obtained by a Fletcher's version of the Levenberg-Maquardt algoritm for minimization of a sum of squares of equation residuals. The main domain of LMFnlsq applications is in curve fitting during processing of experimental data.
 
 ## Usage
 1. Clone this repository to your local machine.
